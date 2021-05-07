@@ -1,0 +1,124 @@
+/* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+
+
+.container {
+    color: black; 
+    width: 100%;
+    background-color: #FEE19F;
+}
+
+.height {
+    height: 100%;
+    border-radius: 7%;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location a {
+    color: black;
+}
+
+.location a:hover {
+    color: #F2AA02
+}
+
+#edges {
+    border-radius: 20%;
+}
+
+.catalog {
+    font-size: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.boat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+hr {    
+    border-top: 1.5px solid #F2AA02;
+}
+
+.beansbees {
+    padding: 15px;
+    font-size: 4rem;
+    text-align: center;;
+}
+
+.footer {
+    background-color: #F2AA02;
+}
+
+.iconcredit {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navipad {
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .navipad {
+        background-color: #B7DDE0;
+    }
+}
+
+.btn {
+    background-color: #B7DDE0;
+    color:black !important;
+    
+}
+
+.btn a {
+    color:black !important;
+}
+
+.btn:hover a {
+    color: white !important;
+}
+
+.pad {
+    padding: 10px;
+}
+
+.clover {
+    color: violet;
+}
+
+.rosemary {
+    color: darkseagreen;
+}
+
+.honeysuckle {
+    color: palegoldenrod;
+}
+
+.lavendar {
+    color: rgb(204, 199, 252);
+}
+
+.plain {
+    color: rgb(255, 208, 0);
+}
+
+.kiwi {
+    font-family: 'Kiwi Maru', serif;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
