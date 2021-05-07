@@ -1,5 +1,7 @@
 /* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
-
+body {
+    background-color: #fee19fc2;
+}
 
 .container {
     color: black; 
@@ -16,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .location a {
@@ -29,6 +31,10 @@
 
 #edges {
     border-radius: 20%;
+}
+
+.map {
+    border-radius: 30px 30px 30px 30px;
 }
 
 .catalog {
